@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #88896D;
+}
+.container{
+  height: 70%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(220, 220, 220, 1);
+}
+.container h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.container .inputBox{
+  padding: 10px;
+  margin-bottom: 8px;
+}
+.container .inputBox label{
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 5px
+}
+.container .inputBox input{
+  border: none;
+  outline: none; 
+  border-bottom: 2px solid #00096D;
+   font-size: 16px;
+   font-weight: 300;
+}
+.container .calculateBMI{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+  background: #00096D;
+}
+.container .calculateBMI:hover{
+  border: 1px solid #4454A7;
+  box-shadow: 0 0 10px #6F7875;
+}
+.container .result{
+  margin-top: 10px;
+  font-size: 15px;
+}
